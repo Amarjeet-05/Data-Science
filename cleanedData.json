@@ -1,0 +1,296 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "user_1",
+      "friends": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "followers": [
+        6,
+        7
+      ],
+      "liked_pages": [
+        201,
+        202,
+        203
+      ]
+    },
+    {
+      "id": 2,
+      "name": "user_2",
+      "friends": [
+        1,
+        10,
+        3,
+        6
+      ],
+      "followers": [
+        1,
+        5
+      ],
+      "liked_pages": [
+        202,
+        204
+      ]
+    },
+    {
+      "id": 3,
+      "name": "user_3",
+      "friends": [
+        1,
+        2,
+        10,
+        7
+      ],
+      "followers": [
+        2
+      ],
+      "liked_pages": [
+        201,
+        205
+      ]
+    },
+    {
+      "id": 4,
+      "name": "user_4",
+      "friends": [
+        8,
+        1,
+        9
+      ],
+      "followers": [
+        3
+      ],
+      "liked_pages": [
+        206,
+        207
+      ]
+    },
+    {
+      "id": 6,
+      "name": "user_6",
+      "friends": [
+        8,
+        1,
+        10,
+        7
+      ],
+      "followers": [
+        2,
+        3
+      ],
+      "liked_pages": [
+        202,
+        208
+      ]
+    },
+    {
+      "id": 7,
+      "name": "user_7",
+      "friends": [
+        9,
+        3,
+        6
+      ],
+      "followers": [
+        1
+      ],
+      "liked_pages": [
+        201,
+        209
+      ]
+    },
+    {
+      "id": 8,
+      "name": "user_8",
+      "friends": [
+        4,
+        6
+      ],
+      "followers": [],
+      "liked_pages": [
+        210
+      ]
+    },
+    {
+      "id": 9,
+      "name": "user_9",
+      "friends": [
+        4,
+        7
+      ],
+      "followers": [
+        6
+      ],
+      "liked_pages": [
+        203,
+        204
+      ]
+    },
+    {
+      "id": 10,
+      "name": "user_10",
+      "friends": [
+        5,
+        6
+      ],
+      "followers": [],
+      "liked_pages": [
+        205
+      ]
+    },
+    {
+      "id": 11,
+      "name": "user_11",
+      "friends": [
+        12,
+        13
+      ],
+      "followers": [
+        14
+      ],
+      "liked_pages": [
+        201,
+        202
+      ]
+    },
+    {
+      "id": 12,
+      "name": "user_12",
+      "friends": [
+        11,
+        14,
+        15
+      ],
+      "followers": [],
+      "liked_pages": [
+        203
+      ]
+    },
+    {
+      "id": 13,
+      "name": "user_13",
+      "friends": [
+        16,
+        11
+      ],
+      "followers": [
+        12
+      ],
+      "liked_pages": [
+        204,
+        205
+      ]
+    },
+    {
+      "id": 14,
+      "name": "user_14",
+      "friends": [
+        17,
+        12
+      ],
+      "followers": [
+        11
+      ],
+      "liked_pages": [
+        206
+      ]
+    },
+    {
+      "id": 16,
+      "name": "user_16",
+      "friends": [
+        19,
+        13
+      ],
+      "followers": [],
+      "liked_pages": [
+        207
+      ]
+    },
+    {
+      "id": 17,
+      "name": "user_17",
+      "friends": [
+        20,
+        14
+      ],
+      "followers": [
+        15
+      ],
+      "liked_pages": [
+        208
+      ]
+    },
+    {
+      "id": 18,
+      "name": "user_18",
+      "friends": [
+        19,
+        15
+      ],
+      "followers": [],
+      "liked_pages": [
+        209
+      ]
+    },
+    {
+      "id": 19,
+      "name": "user_19",
+      "friends": [
+        16,
+        18
+      ],
+      "followers": [],
+      "liked_pages": [
+        210
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": 201,
+      "name": "Python Developers"
+    },
+    {
+      "id": 202,
+      "name": "Data Science Hub"
+    },
+    {
+      "id": 203,
+      "name": "AI & ML World"
+    },
+    {
+      "id": 204,
+      "name": "Web Dev Community"
+    },
+    {
+      "id": 205,
+      "name": "Tech Enthusiasts"
+    },
+    {
+      "id": 206,
+      "name": "Startups"
+    },
+    {
+      "id": 207,
+      "name": "Open Source"
+    },
+    {
+      "id": 208,
+      "name": "Cloud Computing"
+    },
+    {
+      "id": 209,
+      "name": "Cyber Security"
+    },
+    {
+      "id": 210,
+      "name": "Big Data"
+    }
+  ]
+}
