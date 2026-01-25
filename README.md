@@ -1,7 +1,7 @@
 # Data science learning Journey
 This repository contains projects and notebooks where i used Supervised machine learning, which learnt by attending IBM's Generative AI certification.
 
-# what i learnt:
+# What i learnt:
 - Python
 - Numpy and Pandas
 - Data analysis and pre-processing
@@ -10,4 +10,6 @@ This repository contains projects and notebooks where i used Supervised machine 
 - Linear and Logistic Regression
 
 # Project:
-- 
+- Student Performance -using linear Regression(day5LinearRegression.ipynb)
+- Rain Prediction  -using logistic Regression(day6LogisticReg.ipynb)
+  
