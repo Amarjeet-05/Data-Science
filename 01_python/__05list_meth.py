@@ -31,3 +31,4 @@ print("extend ",list1)
 lst = [1,2,3,4,1,2,1,1]
 
 print(lst.count(1))#counts the occurance of a no.
+
