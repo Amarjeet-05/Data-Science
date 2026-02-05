@@ -18,4 +18,5 @@ def fibo(n):
     
 
 n = int(input("Enter the no."))
+
 print(fibo(n))
