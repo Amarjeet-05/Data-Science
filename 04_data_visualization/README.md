@@ -8,6 +8,7 @@ This folder focuses on **visualizing data to extract insights** using Python lib
 ### Topics Covered
 * Line, bar, and scatter plots
 * Histograms
+* Pie chart and Stack plot
 * Data distribution analysis
 
 ### Goal
