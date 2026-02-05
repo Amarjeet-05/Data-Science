@@ -1,4 +1,4 @@
-# Data science learning Journey
+# IBM Machine learning Journey
 This repository contains projects and notebooks where i used Supervised machine learning, which learnt by attending IBM's Generative AI certification.
 
 # What i learnt:
