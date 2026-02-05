@@ -44,4 +44,5 @@ list1 = ["apple", "banana"]
 if("banana" not in list1):
     print("not in")
 else:
+
     print("in")
