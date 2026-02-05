@@ -25,3 +25,4 @@ for i in range(1, 3): #[range(start, stop)]
 
 for i in range(1, 5, 2): #[range(start, stop, step)]
     print(i)
+
