@@ -1,4 +1,4 @@
-# Python Basics 🐍
+# Python Basics 
 This folder contains my Python fundamentals practice, focused on building strong programming logic for data science.
 
 ## Topics Covered
