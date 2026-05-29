@@ -1,0 +1,3 @@
+static folder contains the file that connot be changed dynamically such as 
+JavaScript, CSS, etc.
+it also used to store .exe file for downloading purpose
