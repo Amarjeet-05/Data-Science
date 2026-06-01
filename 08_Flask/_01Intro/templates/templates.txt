@@ -1,0 +1,5 @@
+template folder is used to store html files which flask render and sends to the browser
+
+a very impotant thing is the folder name will be correct 'templates'.
+if folder will template instead of templates then the flask raise an error in web page 
+it always expects templates
