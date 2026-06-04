@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinja2</title>
+</head>
+<body>
+    <p>hello i am {{name}} and i am learning {{lang}}</p>
+    
+
+    <!-- for writing control structure we only need to write jif or jfor it gives the 
+     template of it -->
+    {% for item in luck %}
+        <b>{{item}}</b>
+    {% endfor %}
+
+    <!-- we can also use html tag from a python file -->
+     <!-- now in this case the html tag is returning <p>this is html paragraph tag</p> 
+      in which it prints same as written in the python we don't want to print<p></p>
+      tags we onlt want print only the content of the paragraph tag-->
+     <p>This is the html tag from python : {{ptag}}</p>
+
+     <!-- for printing html tag we have to use | safe -->
+     <p>This is the html tag from python : {{ptag | safe}}</p>
+</body>
+</html>
