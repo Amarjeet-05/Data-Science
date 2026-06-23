@@ -1,0 +1,160 @@
+Git is a version control system which help us to move in any stage of the file, command or program
+
+there is 3 git areas 
+1 - working directory [where we edit the files]
+2 - staging area [where we prepare files for commiting. this is the stage where we check the file before commiting]
+3 - repository [where committed changes are permanently stored]
+
+important commands and steps
+
+- git init
+first we have to initialize the folder and it creates the .git hidden file which tracks all the changes or history.
+
+
+- git add file_name
+this command add the specified file in the staging area 
+- git add .
+this add all the files in the staging area
+
+
+- git status
+checks git status
+if we add the file in staging area and after that we modify the file the status 
+command helps to know that is it modified or not
+
+
+- git commit -m "commit message"
+this is used to commit the changes permanently
+
+
+- git restore file_name 
+if the file is in staging area and not commit yet and it is modified, so this 
+command helps to undo/rollback that modification
+this command is also help to restore file if that file was deleted from the trash bin
+
+
+
+- git restore --staged file_name 
+this command help us to put back file from the stagging
+
+
+
+- git log  or git log --oneline
+gives the commit history 
+
+
+
+- git commit --amend -m "commit message"
+if forgot to include a file or want to change the commit message. it doesn't create any extra commit.
+
+
+
+- git diff
+it shows the what we modified but not staged yet it also show the you modified 
+if we staged the file then it doesn't show anything
+
+
+- git diff --staged 
+it shows what will go into your next commit. basically if any modified file is staged then that will commit 
+
+
+- git diff HEAD~1 HEAD
+compares with the last commit 
+
+
+
+branch is like a copy of the master branch which can we modified and apply other function on it which not affects the master branch
+and after that if we want to apply changes in master branch we can apply same changes into master branch
+
+- git branch
+A branch is a movable pointer to a commit. The default branch is usually called main (or master in older repositories).
+
+
+- git branch branch_name
+to creat a new branch 
+
+
+
+- git branch -d branch_name
+used to delete a branch 
+
+
+Force delete (if not merged)
+- git branch -D feature-navbar
+
+
+- git branch -m new_name
+changing name of current working branch 
+
+
+- git branch -m old_name new_name 
+rename any branch
+
+
+- git branch --merged 
+show merged branch 
+
+
+
+- git switch branch_name
+switching between different branch 
+
+
+- git switch -c branch_name
+create and switch to branch in oneline 
+
+
+- git merge branch_name
+used to merge branch with another branch. sometimes merging cause conflicts. like 
+if we have a common file in different branches and the context of the both files are totally different
+then it may cause conflicts
+
+
+- git checkout --ours file_name
+"ours" = The branch you're currently on.
+if conflicts occurs and we want to apply context from current working branch's file 
+
+
+- git checkout --theirs file_name
+"theirs" = The branch you're merging FROM 
+it is used apply context of other branch's file into current branch's file 
+
+
+
+
+
+
+- git remote -v
+this is use to view the remote 
+
+
+- git remote add origin https://github.com/username/repository.git
+to add remote 
+
+
+-git remote set-url origin https://github.com/username/new-repo.git
+to change remote url 
+
+
+# First push (set upstream)
+- git push -u origin main
+
+# Regular push
+- git push
+
+# Push specific branch
+- git push origin branch-name
+
+
+# Pull (fetch + merge)
+- git pull
+
+# Pull specific branch
+- git pull origin branch-name
+
+
+# List Remote Branches
+- git branch -r
+
+# Delete Remote Branch
+- git push origin --delete branch-name
