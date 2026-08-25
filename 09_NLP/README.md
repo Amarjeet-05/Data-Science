@@ -17,5 +17,6 @@ The project covers the early stages of the NLP pipeline, including text cleaning
 - Text vectorization
 - Bag of Words (BoW)
 - TF-IDF
+- Cosine Similarity
 - Multinomial Naive Bayes
 - Logistic Regression
