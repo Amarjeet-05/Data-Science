@@ -1,0 +1,33 @@
+RAG is a technique that helps an AI model answer questions using external data
+instead of relying only on what it learned during training. It first retrieves
+relevant information from documents, databases, PDFs, websites, etc., and then 
+generates an answer based on that information
+
+RAG pipeline:-
+
+
+Documents
+    ↓
+Preprocessing
+    ↓
+Chunking(splits data into smaller pieces)
+    ↓
+Embeddings(converting each chunk into numerical vectors)
+    ↓
+Vector Database
+    ↓
+────────────────────
+User Question
+    ↓
+Query Embedding
+    ↓
+Retriever
+    ↓
+Relevant Chunks
+    ↓
+Prompt Augmentation
+    ↓
+LLM
+    ↓
+Final Answer
+
