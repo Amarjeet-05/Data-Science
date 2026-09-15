@@ -46,9 +46,3 @@ journey covering EDA, preprocessing, feature scaling, model comparison, and fina
 - Scikit-learn
 - Joblib
 
-# Future Improvements:
-- Hyperparameter tuning
-- Deploy using Streamlit / Flask
-
-
-
