@@ -4,12 +4,9 @@ import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# ----------------------------------------------------------------------
-# EASY-TO-CHANGE SETTINGS
-# Change these values any time — no other code needs to be touched.
-# ----------------------------------------------------------------------
-CSV_PATH = "/Users/amarjeet/Desktop/Streamlit/learning-streamlit/tmdb_top_rated_movies.csv"    # path to your movies CSV
-NUM_RECOMMENDATIONS = 5              # how many similar movies to show
+
+CSV_PATH = "/Users/amarjeet/Desktop/Streamlit/learning-streamlit/tmdb_top_rated_movies.csv"    # path - movies CSV
+NUM_RECOMMENDATIONS = 5              
 TRENDING_COUNT = 10                  # how many movies in the "Trending Now" row
 COLUMNS_PER_ROW = 5                  # poster grid width
 APP_TITLE = "🎬 Movie Recommender"
